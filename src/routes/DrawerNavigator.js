@@ -105,7 +105,7 @@ const DrawerNav = () => {
   const animatedStyle = {borderRadius, transform: [{scale}]};
 
   return (
-    <LinearGradient style={{flex: 1}} colors={['#E94057', '#4A00E0']}>
+    <LinearGradient style={{flex: 1}} colors={[Colors.like, Colors.green]}>
       <Drawer.Navigator
         // initialRouteName="MyStack"
         drawerType="slide"
